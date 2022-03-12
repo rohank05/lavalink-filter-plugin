@@ -11,11 +11,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SampleEventHandler implements AudioFilterExtension {
+public class EchoFilter implements AudioFilterExtension {
 
-    private static final Logger log = LoggerFactory.getLogger(SampleEventHandler.class);
+    private static final Logger log = LoggerFactory.getLogger(EchoFilter.class);
 
-    public SampleEventHandler() {
+    public EchoFilter() {
         log.info("Hello, world!");
     }
 
