@@ -18,8 +18,6 @@ package me.rohank05.plugin;
 import com.sedmelluq.discord.lavaplayer.filter.FloatPcmAudioFilter;
 import com.sedmelluq.discord.lavaplayer.format.AudioDataFormat;
 import dev.arbjerg.lavalink.api.AudioFilterExtension;
-import dev.arbjerg.lavalink.api.ISocketContext;
-import dev.arbjerg.lavalink.api.PluginEventHandler;
 import me.rohank05.echo.EchoPcmAudioFilter;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -43,9 +41,8 @@ public class EchoFilter implements AudioFilterExtension {
 
     @Override
     public FloatPcmAudioFilter build(JSONObject data, AudioDataFormat format, FloatPcmAudioFilter output) {
-        EchoPcmAudioFilter echoPcmAudioFilter = new EchoPcmAudioFilter(output, format.channelCount, format.sampleRate)
+        return new EchoPcmAudioFilter(output, format.channelCount, format.sampleRate)
                 .setDecay(data.getFloat("decay")).setDelay(data.getDouble("delay"));
-        return echoPcmAudioFilter;
     }
 
     @Override
