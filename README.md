@@ -1,8 +1,8 @@
-# lavalink-lavadsp-extended-plugin
+# lavalink-filter-plugin
 [![](https://jitpack.io/v/me.rohank05/lavalink-filter-plugin.svg)](https://jitpack.io/#me.rohank05/lavalink-filter-plugin)
 
 
-A [Lavalink](https://github.com/freyacodes/Lavalink) plugin to support more audio sources.
+A [Lavalink](https://github.com/freyacodes/Lavalink) plugin to add extra audio filters.
 
 `*Filter is added using lavadsp conveter`
 
