@@ -6,7 +6,7 @@ plugins {
 }
 
 group "me.rohank05"
-version "0.1.0"
+version "0.0.1"
 mainClassName = "org.springframework.boot.loader.JarLauncher"
 sourceCompatibility = 11
 compileJava.options.encoding = "UTF-8"
@@ -23,6 +23,8 @@ repositories {
 dependencies {
     compileOnly "dev.arbjerg.lavalink:plugin-api:0.7.0"
     runtimeOnly "com.github.freyacodes.lavalink:Lavalink-Server:feature~plugins"
+    compileOnly "me.rohank05:lavadsp-extended:0.0.2"
+    compileOnly "com.github.natanbc:lavadsp:0.7.7"
 }
 
 shadowJar {
