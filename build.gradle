@@ -5,7 +5,7 @@ plugins {
     id "com.github.johnrengelman.shadow" version "7.1.0"
 }
 
-group "org.example"
+group "me.rohank05"
 version "0.1.0"
 mainClassName = "org.springframework.boot.loader.JarLauncher"
 sourceCompatibility = 11

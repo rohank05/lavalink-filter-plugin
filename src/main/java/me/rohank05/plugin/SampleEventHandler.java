@@ -1,4 +1,4 @@
-package org.example.plugin;
+package me.rohank05.plugin;
 
 import dev.arbjerg.lavalink.api.ISocketContext;
 import dev.arbjerg.lavalink.api.PluginEventHandler;
