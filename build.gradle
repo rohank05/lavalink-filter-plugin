@@ -23,7 +23,7 @@ repositories {
 dependencies {
     compileOnly "dev.arbjerg.lavalink:plugin-api:0.7.0"
     runtimeOnly "com.github.freyacodes.lavalink:Lavalink-Server:feature~plugins"
-    implementation "me.rohank05:lavadsp-extended:0.0.2"
+    implementation "me.rohank05:lavadsp-extended:0.0.5"
     implementation "com.github.natanbc:lavadsp:0.7.7"
 }
 
