@@ -27,6 +27,10 @@ lavalink:
     "echo": {
         "delay": 1.0, // in seconds
         "decay": 0.5 // 0 ≤ x ≤ 1
+    },
+    "reverb": {
+        "delays": [0.037f, 0.042f, 0.048f, 0.053f],
+        "gains": [0.84f, 0.83f, 0.82f, 0.81f]
     }
 }
 ```
